@@ -1,5 +1,4 @@
 # AE2713
 
-GLHF
-
-Bro why are you looking at this?
+Work done by Liam Piper
+WPI Aerospace Engineering
