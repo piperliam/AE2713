@@ -1,4 +1,8 @@
-function H = golden(v)
-H = [v; v.^2; v.^3]';
-size(H) = (n,3)
+function golden
+
+disp('Matrix G:')
+v = 1:5;
+pwr = 0:2;
+bsxfun(@power,v(:),pwr)
+
 end
