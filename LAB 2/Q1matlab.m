@@ -20,11 +20,13 @@ conds = [cond1 cond2 cond3 cond4];
 disp Output:
 % uSol solves the ODE
 uSol(x) = dsolve(ode,conds)
+%uSol is now the soultion symboliclly
 
 %This is the output of t=20
 w = (cos(20)+(20*sin(20))/2);
 fplot(w)
 
+%function to help with ploting two functions
 hold on
 
 % plots the function on the graph
@@ -32,7 +34,7 @@ hold on
 % ezplot(f,[xmin,xmax,ymin,ymax])
 fplot(uSol,[-5,20]);
 
-
+%The labeling of the graphs
 title('Output of ODE: [cos(x)+(x*sin(x))/2]')
 xlabel('Time');
 ylabel('Y-Axis');
